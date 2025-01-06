@@ -58,7 +58,12 @@ Optional: You can subset the gene_info file for your desired organism. This spee
 awk 'NR == 1 || $1 == "9606" {print $0}' gene_info > Hg38-human-only-gene_info.txt
 
 ``` 
-*Note: The python script needs the headers to be retained in the gene_info file to function correctly
+Note: The python script needs the headers to be retained in the gene_info file to function correctly. I have included an abbreviated version of the NCBI gene_info file with just 3 key columns within this repo for use (#tax_id, Symbol and Synonyms). The larger file could not fit on Github. These are the 3 minimum columns required in the gene_info file to run the utility correctly.
+
+```
+# Generate 3 column file from previous step
+cut -f 1,3,5 Hg38-human-only-2025-01-05-gene_info.txt > 3Key-columns-Hg38-human-only-2025-01-05-gene_info.txt
+```
 
 Run the script with:
 
