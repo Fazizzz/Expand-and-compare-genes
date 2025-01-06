@@ -25,7 +25,7 @@ ________________________________________________________
 ## Requirements
 
 * `Python 3.8+`
-* `Text files contatining gene names (should include special characters found in gene names i.e "-")`
+* `Text files contatining gene names (Include special characters found in gene names i.e "-")`
 * `A gene_info file downloaded from: https://ftp.ncbi.nih.gov/gene/DATA/ (this file can be subset by organism to speed up matching)`
 
 _______________________________________________________ 
