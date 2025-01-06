@@ -1,0 +1,13 @@
+Gene,Synonyms,Present_in_A
+aamp,-,True
+aac2,nat-2|nat2|pnat,True
+aacp,natp|natp1,True
+abo,a3galnt|a3galt1|gtb|nagat,False
+abr,mdb,False
+a2mp,a2mp1,True
+a1b,a1bg|abg|gab|hyst2477,True
+abca4,abc10|abcr|armd2|cord3|ffm|rmp|rp19|stgd|stgd1,False
+aac1,mnat|nat-1|nat1|nati,True
+aact,act|gig24|gig25|serpina3,True
+a2md,a2m|cpamd5|fwp007|s863-7,True
+ces5a1,aadac|dac,True
